@@ -3,6 +3,7 @@ project:
     name: Food-Bank
     package:
         name: Food-Bank
+        namespace: js5cci6package
         api_version: '55.0'
     git:
         default_branch: 'main'

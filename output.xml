@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on darwin)" generated="20230201 11:16:32.127" rpa="false" schemaversion="3">
+<suite id="s1" name="Create Contact" source="/Users/justinsycha/TestAutomation/GitHub/GitHub Repo/Food-Bank/robot/Food-Bank/tests/create_contact.robot">
+<kw name="Open Test Browser" type="SETUP">
+<msg timestamp="20230201 11:16:32.138" level="FAIL">No keyword with name 'Open Test Browser' found.</msg>
+<status status="FAIL" starttime="20230201 11:16:32.138" endtime="20230201 11:16:32.138"/>
+</kw>
+<test id="s1-t1" name="Via API" line="12">
+<status status="FAIL" starttime="20230201 11:16:32.138" endtime="20230201 11:16:32.139">Parent suite setup failed:
+No keyword with name 'Open Test Browser' found.</status>
+</test>
+<kw name="Delete Records and Close Browser" type="TEARDOWN">
+<msg timestamp="20230201 11:16:32.140" level="FAIL">No keyword with name 'Delete Records and Close Browser' found.</msg>
+<status status="FAIL" starttime="20230201 11:16:32.139" endtime="20230201 11:16:32.140">No keyword with name 'Delete Records and Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230201 11:16:32.128" endtime="20230201 11:16:32.140">Suite setup failed:
+No keyword with name 'Open Test Browser' found.
+
+Also suite teardown failed:
+No keyword with name 'Delete Records and Close Browser' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Create Contact">Create Contact</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230201 11:16:32.135" level="ERROR">Error in file '/Users/justinsycha/TestAutomation/GitHub/GitHub Repo/Food-Bank/robot/Food-Bank/tests/create_contact.robot' on line 3: Resource file 'cumulusci/robotframework/Salesforce.robot' does not exist.</msg>
+<msg timestamp="20230201 11:16:32.136" level="ERROR">Error in file '/Users/justinsycha/TestAutomation/GitHub/GitHub Repo/Food-Bank/robot/Food-Bank/tests/create_contact.robot' on line 4: Importing library 'cumulusci.robotframework.PageObjects' failed: ModuleNotFoundError: No module named 'cumulusci'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/justinsycha/.vscode/extensions/robocorp.robotframework-lsp-1.8.0/src/robotframework_debug_adapter
+  /Users/justinsycha/TestAutomation/GitHub/GitHub Repo/Food-Bank
+  /Users/justinsycha/.vscode/extensions/robocorp.robotframework-lsp-1.8.0/src
+  /Users/justinsycha/.vscode/extensions/robocorp.robotframework-lsp-1.8.0/src/robotframework_ls/vendored
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages</msg>
+</errors>
+</robot>
